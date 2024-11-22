@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(to bottom, skyblue, yellowgreen, white);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+#pic1{
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    border-radius: 10px;
+}
+#th2{
+    color:blue;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    }
+.text-shadow {
+  text-shadow: 10px 10px 19px= black;
+}
+.dropdown{
+  display: inline-block;
+}
+.dropdown button{
+  background-color: rgba(145, 255, 118, 0.712);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+ .dropdown .content {
+   display: none;
+   position: absolute;
+   background-color: hsl(0, 0%, 95%);
+   min-width: 200px;
+   box-shadow: 2px 2px 5px black;
+ }
+.dropdown:hover .content {
+  display: block;
+}
+.dropdown:hover button{
+  background-color: green
+}
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+#vid1{
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    border-radius: 10px;
+}
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: blue;;
+}
+.ds{
+border-style: solid;
+border-width: 5%;
+border-color: gold;
+border-radius: 10px;
+background-color: white;
+padding: 5px;
+font-family: cursive;
+font-size: 25px;
+}
+.p2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(56, 113, 131);
+}

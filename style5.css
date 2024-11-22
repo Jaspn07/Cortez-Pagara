@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(to bottom, skyblue, yellowgreen, white);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+#th2{
+    color:blue;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text-shadow{
+    text-shadow: 2px, 2px, 4px black;
+}
+.o{
+border-style:solid;
+border-width: 10%;
+border-color: gold;
+border-radius: 10px;
+background-color: white;
+padding: 5px;
+}
+.tab{
+  border-style: solid;
+  border-width: 5px;
+  border-color: gold;
+  background-color: white;
+  border-radius: 5px;
+}
+.odd{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+}
+.even{
+  font-family:cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+.t1{
+  font-family: serif;
+  font-size: 30px;
+  color: rgb(56, 113, 131);
+}
+.dropdown{
+  display: inline-block;
+}
+.dropdown button{
+  background-color: rgba(145, 255, 118, 0.712);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+ .dropdown .content {
+   display: none;
+   position: absolute;
+   background-color: hsl(0, 0%, 95%);
+   min-width: 200px;
+   box-shadow: 2px 2px 5px black;
+ }
+.dropdown:hover .content {
+  display: block;
+}
+.dropdown:hover button{
+  background-color: green
+}
+.dropdown a:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
